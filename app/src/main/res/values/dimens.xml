@@ -13,6 +13,7 @@
 
     <dimen name="logo_size_medium">200dp</dimen>
 
+    <dimen name="margain_top_very_large">130dp</dimen>
     <dimen name="margain_top_large">30dp</dimen>
     <dimen name="margain_top_medium">20dp</dimen>
     <dimen name="margain_top_small">10dp</dimen>

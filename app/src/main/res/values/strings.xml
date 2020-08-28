@@ -3,6 +3,7 @@
     <string name="app_name">RDU Helper</string>
 
     <string name="button_text_forum">Форум</string>
+    <string name="button_text_russian_master">russianmaster</string>
     <string name="button_text_search_partner">Поиск партнёра/парнёрши</string>
     <string name="button_text_competitions">Соревнования</string>
     <string name="button_text_competitions_ro">Соревнования РО</string>
