@@ -98,7 +98,6 @@ class MainActivity : AppCompatActivity() {
             .setStartDelay(400)
             .start()
 
-
         player.start()
     }
 
