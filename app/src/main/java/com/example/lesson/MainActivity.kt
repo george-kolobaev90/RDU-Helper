@@ -1,10 +1,12 @@
 package com.example.lesson
 
+import android.content.DialogInterface
 import android.content.Intent
 import android.media.MediaPlayer
 import android.os.Bundle
 import android.view.View
 import android.view.animation.*
+import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import com.example.lesson.Helper.Companion.animateAlpha
 import com.example.lesson.Helper.Companion.gotoUrl
@@ -34,8 +36,9 @@ class MainActivity : AppCompatActivity() {
 //        }
 
         buttonToNavigator.setOnClickListener {
-            val intent = Intent(this, RussianMasterNavigator::class.java)
-            startActivity(intent)
+            showNavigator()
+//            val intent = Intent(this, RussianMasterNavigator::class.java)
+//            startActivity(intent)
         }
 
         buttooninst.setOnClickListener {
@@ -81,5 +84,19 @@ class MainActivity : AppCompatActivity() {
 //        super.onDestroy()
 //        player.release()
 //    }
+
+    private fun showNavigator() {
+        val buttonUrls = resources.getStringArray(R.array.navigation_button_urls)
+
+        AlertDialog.Builder(this)
+            .setTitle(R.string.app_name)
+            .setItems(R.array.navigation_button_titles
+            ) { _, itemIndex ->
+                gotoUrl(this@MainActivity, buttonUrls[itemIndex])
+            }
+            .setNegativeButton(android.R.string.cancel, null)
+            .create()
+            .show()
+    }
 
 }

@@ -39,6 +39,32 @@
     <string name="button_link_documents">https://russianmaster.ru/#dokumenty-rts</string>
     <string name="button_link_competitions_ro">https://russianmaster.ru/#sorevnovaniya-regionalnyx-otdelenij-rts</string>
 
+
+    <string-array name="navigation_button_titles">
+        <item>@string/button_text_main</item>
+        <item>@string/button_text_raiting</item>
+        <item>@string/button_text_competitions</item>
+        <item>@string/button_text_forum</item>
+        <item>@string/button_text_search_partner</item>
+        <item>@string/button_text_class_of_dancers</item>
+        <item>@string/button_text_documents</item>
+        <item>@string/button_text_eadc</item>
+        <item>@string/button_text_competitions_ro</item>
+    </string-array>
+
+    <string-array name="navigation_button_urls">
+        <item>@string/button_link_main</item>
+        <item>@string/button_link_raiting</item>
+        <item>@string/button_link_competitions</item>
+        <item>@string/button_link_forum</item>
+        <item>@string/button_link_search_partner</item>
+        <item>@string/button_link_documents</item>
+        <item>@string/button_link_class_of_dancers</item>
+        <item>@string/button_link_eadc</item>
+        <item>@string/button_link_competitions_ro</item>
+    </string-array>
+
+
     <string name="text_slogan">"Танцуйте и будьте счастливы!"</string>
     <string name="text_name">Перспективы развития</string>
     <string name="text_appeal">Уважаемые коллеги, танцоры, тренеры, педагоги, организаторы РТС!</string>
