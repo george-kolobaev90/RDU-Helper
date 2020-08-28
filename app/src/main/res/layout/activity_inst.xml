@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/zelyanyn"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Inst">
+
+    <Button
+        android:id="@+id/dancersUnderstand"
+        style="@style/rtsButton"
+        android:text="@string/button_text_dancersunderstand" />
+
+    <Button
+        android:id="@+id/fk_dancesport"
+        style="@style/rtsButton"
+        android:text="@string/button_text_fk_dancesport1" />
+
+    <Button
+        android:id="@+id/QuickDanceSport"
+        style="@style/rtsButton"
+        android:text="@string/button_text_QuickDancePhoto" />
+
+    <Button
+        android:id="@+id/ballroomPhoto"
+        style="@style/rtsButton"
+        android:text="@string/button_text_BallroomPhoto" />
+
+    <Button
+        android:id="@+id/buttonDanceSport"
+        style="@style/rtsButton"
+        android:text="@string/button_text_dancesport" />
+
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="large_text3">55sp</dimen>
+    <dimen name="large_text2">50sp</dimen>
+    <dimen name="large_text1">45sp</dimen>
+    <dimen name="medium_text3">40sp</dimen>
+    <dimen name="medium_text2">35sp</dimen>
+    <dimen name="medium_text1">30sp</dimen>
+    <dimen name="small_text1">15sp</dimen>
+    <dimen name="small_text2">20sp</dimen>
+    <dimen name="small_text3">25sp</dimen>
+
+    <dimen name="logo_size_medium">200dp</dimen>
+
+    <dimen name="margain_top_large">30dp</dimen>
+    <dimen name="margain_top_medium">20dp</dimen>
+    <dimen name="margain_top_small">10dp</dimen>
+
+    <dimen name="margain_start_end_small">5dp</dimen>
+    <dimen name="margain_start_end_large">30dp</dimen>
+
+    <dimen name="margain_bottom_large">20dp</dimen>
+    <dimen name="margain_bottom_medium">15dp</dimen>
+    <dimen name="margain_bottom_small">10dp</dimen>
+
+    <dimen name="button_medium">100dp</dimen>
+
+</resources>

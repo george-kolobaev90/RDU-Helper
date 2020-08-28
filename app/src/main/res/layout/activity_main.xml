@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/brovko"
+    android:gravity="top"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="@dimen/logo_size_medium"
+                android:layout_height="@dimen/logo_size_medium"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/margain_top_small"
+                android:layout_marginBottom="@dimen/margain_bottom_small"
+                app:srcCompat="@drawable/logo2" />
+
+            <TextView
+                android:id="@+id/slogan"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:gravity="center_horizontal"
+                android:text="@string/text_slogan"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/medium_text2"
+                android:textStyle="italic" />
+
+
+            <Button
+                android:id="@+id/buttonMain"
+                style="@style/rtsButton"
+                android:text="@string/button_text_main" />
+
+            <Button
+                android:id="@+id/buttonraiting"
+                style="@style/rtsButton"
+                android:text="@string/button_text_raiting" />
+
+            <Button
+                android:id="@+id/buttonComps"
+                style="@style/rtsButton"
+                android:text="@string/button_text_competitions" />
+
+            <Button
+                android:id="@+id/buttonForum"
+                style="@style/rtsButton"
+                android:text="@string/button_text_forum" />
+
+            <Button
+                android:id="@+id/buttonSearch"
+                style="@style/rtsButton"
+                android:text="@string/button_text_search_partner" />
+
+
+            <Button
+                android:id="@+id/buttonDoc"
+                style="@style/rtsButton"
+                android:text="@string/button_text_documents" />
+
+
+            <Button
+                android:id="@+id/buttonClas"
+                style="@style/rtsButton"
+                android:text="@string/button_text_documents" />
+
+
+            <Button
+                android:id="@+id/buttonCompSR"
+                style="@style/rtsButton"
+                android:text="@string/button_text_competitions_ro" />
+
+            <Button
+                android:id="@+id/buttoneadc"
+                style="@style/rtsButton"
+                android:text="@string/button_text_eadc" />
+
+            <Button
+                android:id="@+id/buttonWords"
+                style="@style/rtsButton"
+                android:text="@string/button_text_prospect_of_development" />
+
+            <Button
+                android:id="@+id/buttoonadd"
+                style="@style/rtsButton"
+                android:text="@string/button_text_image_studio" />
+
+            <Button
+                android:id="@+id/buttooninst"
+                style="@style/rtsButton"
+                android:layout_marginBottom="@dimen/margain_bottom_small"
+                android:text="@string/button_text_instagram" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
