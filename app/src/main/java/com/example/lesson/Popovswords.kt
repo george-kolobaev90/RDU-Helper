@@ -9,6 +9,20 @@ class Popovswords : BaseChildActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_popovswords)
 
+        val pt = DrawPoint()
+        pt.position.set(10, 20)
+
+        val line = DrawLine()
+        line.position.set(10, 20)
+        line.endPosition.set(100, 200)
+
+        val rect = DrawLine()
+        rect.position.set(10, 20)
+        rect.endPosition.set(100, 200)
+
+        listOf(pt, line, rect).forEach {
+            it.draw()
+        }
     }
 
 
