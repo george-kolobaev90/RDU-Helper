@@ -5,12 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/fedka"
-    android:orientation="vertical"
     tools:context=".HelpfulLinks">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
         android:orientation="vertical">
 
         <Button
@@ -18,6 +18,7 @@
             style="@style/rtsButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margain_top_small"
             android:text="@string/button_text_site_rdu" />
 
         <Button
@@ -34,12 +35,62 @@
             android:layout_height="wrap_content"
             android:text="@string/button_text_site_eadc" />
 
+
         <Button
             android:id="@+id/ofstWebsite"
             style="@style/rtsButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/button_text_site_ofsd" />
+
+        <Button
+            android:id="@+id/sptsWebsite"
+            style="@style/rtsButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_text_site_spts" />
+
+        <Button
+            android:id="@+id/modlWebsite"
+            style="@style/rtsButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_text_site_modl" />
+
+        <Button
+            android:id="@+id/mtsWebsite"
+            style="@style/rtsButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_text_site_mts" />
+
+        <Button
+            android:id="@+id/fsdtWebsite"
+            style="@style/rtsButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_text_site_fsdt" />
+
+        <Button
+            android:id="@+id/roRtsSpbWebsite"
+            style="@style/rtsButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_text_site_ro_rts" />
+
+        <Button
+            android:id="@+id/totlWebsite"
+            style="@style/rtsButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_text_site_ro_totl" />
+
+        <Button
+            android:id="@+id/wdoWebsite"
+            style="@style/rtsButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_text_site_wdo" />
 
     </LinearLayout>
 

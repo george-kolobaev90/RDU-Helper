@@ -53,8 +53,13 @@
         <Button
             android:id="@+id/buttooninst"
             style="@style/rtsButton"
-            android:layout_marginBottom="@dimen/margain_bottom_small"
             android:text="@string/button_text_instagram" />
+
+        <Button
+            android:id="@+id/buttonHelper"
+            style="@style/rtsButton"
+            android:layout_marginBottom="@dimen/margain_bottom_small"
+            android:text="@string/button_text_useful_links" />
 
     </LinearLayout>
 

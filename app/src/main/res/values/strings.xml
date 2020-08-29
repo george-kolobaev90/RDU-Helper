@@ -4,6 +4,7 @@
     <string name="app_name">RDU Helper</string>
 
     <string name="button_text_forum">Форум</string>
+    <string name="button_text_useful_links">Полезные ссылки</string>
     <string name="button_text_russian_master">russianmaster</string>
     <string name="button_text_search_partner">Поиск партнёра/парнёрши</string>
     <string name="button_text_competitions">Соревнования</string>
@@ -30,8 +31,8 @@
     <string name="button_text_site_spts">Санкт-Петербургский Танцевальный Союз</string>
     <string name="button_text_site_ro_rts">РО РТС Санкт-Петербурга</string>
     <string name="button_text_site_fsdt">Федерация спортивного бального танца</string>
-    <string name="button_text_site_ro_">Тульская Областная Танцевальная Лига</string>
-
+    <string name="button_text_site_ro_totl">Тульская Областная Танцевальная Лига</string>
+    <string name="button_text_site_wdo">World Dance ORGANISERS</string>
 
 
     <string name="button_link_QuickDancePhoto">https://www.instagram.com/quickdancephoto/</string>

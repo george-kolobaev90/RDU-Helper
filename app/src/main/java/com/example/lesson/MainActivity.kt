@@ -51,6 +51,11 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        buttonHelper.setOnClickListener {
+            val intent = Intent(this, HelpfulLinks::class.java)
+            startActivity(intent)
+        }
+
 //
 //        listOf(buttonMain, logo, slogan, buttonWords,  buttooninst,  buttoonadd,
 //            buttoneadc,  buttonCompSR,  buttonComps,  buttonMain,  buttonClas,
