@@ -33,6 +33,7 @@
     <string name="button_text_site_ro_totl">Тульская Областная Танцевальная Лига</string>
     <string name="button_text_site_wdo">World Dance Organizers</string>
     <string name="button_text_site_mta">Moscow Dance Alliance</string>
+    <string name="button_text_site_dancesport">Dancesport</string>
 
 
     <string name="button_link_QuickDancePhoto">https://www.instagram.com/quickdancephoto/</string>
@@ -64,6 +65,7 @@
     <string name="button_link_site_ro_totl">https://dancetula.ru</string>
     <string name="button_link_site_wdo">https://wdo.dance</string>
     <string name="button_link_site_mta">http://www.moscowdancealliance.ru/ru/</string>
+    <string name="button_link_dancesport">https://www.instagram.com/dancesport.ru/</string>
 
 
     <string-array name="navigation_button_titles">
@@ -113,6 +115,21 @@
         <item>@string/button_link_site_modl</item>
         <item>@string/button_link_site_eadc</item>
         <item>@string/button_link_site_ro_totl</item>
+    </string-array>
+
+
+    <string-array name="instagram_button_urls">
+        <item>@string/button_link_QuickDancePhoto</item>
+        <item>@string/button_link_fk_dancesport_1</item>
+        <item>@string/button_link_ballroomphoto</item>
+        <item>@string/button_link_dancersunderstand</item>
+    </string-array>
+
+    <string-array name="instagram_button_titles">
+        <item>@string/button_text_QuickDancePhoto</item>
+        <item>@string/button_text_fk_dancesport1</item>
+        <item>@string/button_text_BallroomPhoto</item>
+        <item>@string/button_text_dancersunderstand</item>
     </string-array>
 
 
