@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <string name="app_name">RDU Helper</string>
 
     <string name="button_text_forum">Форум</string>
@@ -25,14 +24,15 @@
     <string name="button_text_site_rdu">Российский Танцевальный Союз</string>
     <string name="button_text_site_wdc">World Dance Council</string>
     <string name="button_text_site_eadc">EURO ASIAN DANCE COUNCIL</string>
+    <string name="button_text_site_mfst">Московская Федерация Спортивного Танца</string>
     <string name="button_text_site_ofsd">Открытая Федерация Спортивного Танца</string>
     <string name="button_text_site_modl">Московская Областная Танцевальная Лига</string>
     <string name="button_text_site_mts">Московский Танцевальный Союз</string>
     <string name="button_text_site_spts">Санкт-Петербургский Танцевальный Союз</string>
     <string name="button_text_site_ro_rts">РО РТС Санкт-Петербурга</string>
-    <string name="button_text_site_fsdt">Федерация спортивного бального танца</string>
     <string name="button_text_site_ro_totl">Тульская Областная Танцевальная Лига</string>
-    <string name="button_text_site_wdo">World Dance ORGANISERS</string>
+    <string name="button_text_site_wdo">World Dance Organizers</string>
+    <string name="button_text_site_mta">Moscow Dance Alliance</string>
 
 
     <string name="button_link_QuickDancePhoto">https://www.instagram.com/quickdancephoto/</string>
@@ -52,6 +52,18 @@
     <string name="button_link_eadc">https://russianmaster.ru/EADC-rate</string>
     <string name="button_link_documents">https://russianmaster.ru/#dokumenty-rts</string>
     <string name="button_link_competitions_ro">https://russianmaster.ru/#sorevnovaniya-regionalnyx-otdelenij-rts</string>
+    <string name="button_link_site_rdu">http://www.rdu.ru</string>
+    <string name="button_link_site_wdc">http://www.rdu.ru</string>
+    <string name="button_link_site_eadc">http://eadcdance.com</string>
+    <string name="button_link_site_ofsd">https://ofst.rdu.ru</string>
+    <string name="button_link_site_mfst">https://mfst.dance/news/list/1/</string>
+    <string name="button_link_site_modl">http://danceleague.ru</string>
+    <string name="button_link_site_mts">http://московскийтанцевальныйсоюз.рф</string>
+    <string name="button_link_site_spts">http://www.spdu.spb.ru</string>
+    <string name="button_link_site_ro_rts">http://rdu.spb.ru</string>
+    <string name="button_link_site_ro_totl">https://dancetula.ru</string>
+    <string name="button_link_site_wdo">https://wdo.dance</string>
+    <string name="button_link_site_mta">http://www.moscowdancealliance.ru/ru/</string>
 
 
     <string-array name="navigation_button_titles">
@@ -76,6 +88,31 @@
         <item>@string/button_link_class_of_dancers</item>
         <item>@string/button_link_eadc</item>
         <item>@string/button_link_competitions_ro</item>
+    </string-array>
+
+
+    <string-array name="federations_button_titles">
+        <item>@string/button_text_site_rdu</item>
+        <item>@string/button_text_site_wdc</item>
+        <item>@string/button_text_site_wdo</item>
+        <item>@string/button_text_site_mts</item>
+        <item>@string/button_text_site_mfst</item>
+        <item>@string/button_text_site_mta</item>
+        <item>@string/button_text_site_modl</item>
+        <item>@string/button_text_site_eadc</item>
+        <item>@string/button_text_site_ro_totl</item>
+    </string-array>
+
+    <string-array name="federations_button_urls">
+        <item>@string/button_link_site_rdu</item>
+        <item>@string/button_link_site_wdc</item>
+        <item>@string/button_link_site_wdo</item>
+        <item>@string/button_link_site_mts</item>
+        <item>@string/button_link_site_mfst</item>
+        <item>@string/button_link_site_mta</item>
+        <item>@string/button_link_site_modl</item>
+        <item>@string/button_link_site_eadc</item>
+        <item>@string/button_link_site_ro_totl</item>
     </string-array>
 
 
