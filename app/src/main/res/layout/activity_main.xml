@@ -58,8 +58,12 @@
         <Button
             android:id="@+id/buttonHelper"
             style="@style/rtsButton"
-            android:layout_marginBottom="@dimen/margain_bottom_small"
             android:text="@string/button_text_useful_links" />
+
+        <Button
+            android:id="@+id/buttonYoutube"
+            style="@style/rtsButton"
+            android:text="@string/button_text_youtube" />
 
     </LinearLayout>
 

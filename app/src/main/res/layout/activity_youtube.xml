@@ -2,16 +2,15 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/zelyanyn">
+    android:background="@drawable/brovko">
+
 
     <ListView
-        android:id="@+id/listOfInstagrams"
+        android:id="@+id/listOfYoutubeChanels"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/margain_start_end_small"
         android:layout_marginTop="@dimen/margain_top_small"
         android:layout_marginEnd="@dimen/margain_start_end_small"
         android:background="#AFFF" />
-
 </LinearLayout>
-
