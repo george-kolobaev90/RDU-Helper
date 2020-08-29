@@ -34,11 +34,16 @@ class MainActivity : AppCompatActivity() {
 //            val intent = Intent(this, Popovswords::class.java)
 //            startActivity(intent)
 //        }
+//
+//        buttonToNavigator.setOnClickListener {
+//            showNavigator()
+////            val intent = Intent(this, RussianMasterNavigator::class.java)
+////            startActivity(intent)
+//        }
 
         buttonToNavigator.setOnClickListener {
-            showNavigator()
-//            val intent = Intent(this, RussianMasterNavigator::class.java)
-//            startActivity(intent)
+            val intent = Intent(this, NavigatorActivity::class.java)
+            startActivity(intent)
         }
 
         buttooninst.setOnClickListener {
@@ -90,18 +95,5 @@ class MainActivity : AppCompatActivity() {
 //        player.release()
 //    }
 
-    private fun showNavigator() {
-        val buttonUrls = resources.getStringArray(R.array.navigation_button_urls)
-
-        AlertDialog.Builder(this)
-            .setTitle(R.string.app_name)
-            .setItems(R.array.navigation_button_titles
-            ) { _, itemIndex ->
-                gotoUrl(this@MainActivity, buttonUrls[itemIndex])
-            }
-            .setNegativeButton(android.R.string.cancel, null)
-            .create()
-            .show()
-    }
 
 }

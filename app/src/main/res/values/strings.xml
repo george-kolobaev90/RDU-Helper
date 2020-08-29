@@ -11,7 +11,7 @@
     <string name="button_text_documents">Документы</string>
     <string name="button_text_eadc">Рейтинг EADC соло девочки</string>
     <string name="button_text_class_of_dancers">Классы танцоров</string>
-    <string name="button_text_raiting">Рейтинг</string>
+    <string name="button_text_rating">Рейтинг</string>
     <string name="button_text_main">Главная</string>
     <string name="button_text_image_studio">Имидж-Студии</string>
     <string name="button_text_instagram">Instagram</string>
@@ -48,7 +48,7 @@
     <string name="button_link_competitions">https://russianmaster.ru/#cal2021</string>
     <string name="button_link_class_of_dancers">https://wwa.rdu.ru/kartochki-tanczorov</string>
     <string name="button_link_search_partner">https://russianmaster.ru/#poisk-partnera</string>
-    <string name="button_link_raiting">https://russianmaster.ru/#rejting-rts</string>
+    <string name="button_link_rating">https://russianmaster.ru/#rejting-rts</string>
     <string name="button_link_forum">https://russianmaster.ru/#forum-nyus</string>
     <string name="button_link_eadc">https://russianmaster.ru/EADC-rate</string>
     <string name="button_link_documents">https://russianmaster.ru/#dokumenty-rts</string>
@@ -68,29 +68,29 @@
     <string name="button_link_dancesport">https://www.instagram.com/dancesport.ru/</string>
 
 
-    <string-array name="navigation_button_titles">
-        <item>@string/button_text_main</item>
-        <item>@string/button_text_raiting</item>
-        <item>@string/button_text_competitions</item>
-        <item>@string/button_text_forum</item>
-        <item>@string/button_text_search_partner</item>
-        <item>@string/button_text_class_of_dancers</item>
-        <item>@string/button_text_documents</item>
-        <item>@string/button_text_eadc</item>
-        <item>@string/button_text_competitions_ro</item>
-    </string-array>
+<!--    <string-array name="navigation_button_titles">-->
+<!--        <item>@string/button_text_main</item>-->
+<!--        <item>@string/button_text_rating</item>-->
+<!--        <item>@string/button_text_competitions</item>-->
+<!--        <item>@string/button_text_forum</item>-->
+<!--        <item>@string/button_text_search_partner</item>-->
+<!--        <item>@string/button_text_class_of_dancers</item>-->
+<!--        <item>@string/button_text_documents</item>-->
+<!--        <item>@string/button_text_eadc</item>-->
+<!--        <item>@string/button_text_competitions_ro</item>-->
+<!--    </string-array>-->
 
-    <string-array name="navigation_button_urls">
-        <item>@string/button_link_main</item>
-        <item>@string/button_link_raiting</item>
-        <item>@string/button_link_competitions</item>
-        <item>@string/button_link_forum</item>
-        <item>@string/button_link_search_partner</item>
-        <item>@string/button_link_documents</item>
-        <item>@string/button_link_class_of_dancers</item>
-        <item>@string/button_link_eadc</item>
-        <item>@string/button_link_competitions_ro</item>
-    </string-array>
+<!--    <string-array name="navigation_button_urls">-->
+<!--        <item>@string/button_link_main</item>-->
+<!--        <item>@string/button_link_rating</item>-->
+<!--        <item>@string/button_link_competitions</item>-->
+<!--        <item>@string/button_link_forum</item>-->
+<!--        <item>@string/button_link_search_partner</item>-->
+<!--        <item>@string/button_link_documents</item>-->
+<!--        <item>@string/button_link_class_of_dancers</item>-->
+<!--        <item>@string/button_link_eadc</item>-->
+<!--        <item>@string/button_link_competitions_ro</item>-->
+<!--    </string-array>-->
 
 
     <string-array name="federations_button_titles">
@@ -130,6 +130,31 @@
         <item>@string/button_text_fk_dancesport1</item>
         <item>@string/button_text_BallroomPhoto</item>
         <item>@string/button_text_dancersunderstand</item>
+    </string-array>
+
+
+    <string-array name="navigator_button_titles">
+        <item>@string/button_text_main</item>
+        <item>@string/button_text_rating</item>
+        <item>@string/button_text_competitions</item>
+        <item>@string/button_text_competitions_ro</item>
+        <item>@string/button_text_class_of_dancers</item>
+        <item>@string/button_text_forum</item>
+        <item>@string/button_text_documents</item>
+        <item>@string/button_text_search_partner</item>
+        <item>@string/button_text_eadc</item>
+    </string-array>
+
+    <string-array name="navigator_button_urls">
+        <item>@string/button_link_main</item>
+        <item>@string/button_link_rating</item>
+        <item>@string/button_link_competitions</item>
+        <item>@string/button_link_competitions_ro</item>
+        <item>@string/button_link_class_of_dancers</item>
+        <item>@string/button_link_forum</item>
+        <item>@string/button_link_documents</item>
+        <item>@string/button_link_search_partner</item>
+        <item>@string/button_link_eadc</item>
     </string-array>
 
 

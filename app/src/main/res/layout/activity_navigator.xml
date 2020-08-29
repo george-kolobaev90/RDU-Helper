@@ -12,5 +12,4 @@
         android:layout_marginTop="@dimen/margain_top_small"
         android:layout_marginEnd="@dimen/margain_start_end_small"
         android:layout_marginStart="@dimen/margain_start_end_small"/>
-
 </LinearLayout>
