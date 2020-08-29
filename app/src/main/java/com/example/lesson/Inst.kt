@@ -1,7 +1,7 @@
 package com.example.lesson
 
 import android.os.Bundle
-import kotlinx.android.synthetic.main.activity_helpful_links.*
+import kotlinx.android.synthetic.main.activity_base_list_view.*
 
 class Inst : BaseListViewActivity() {
     override val titlesResId = R.array.instagram_button_titles
@@ -10,6 +10,8 @@ class Inst : BaseListViewActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         rootContainer.setBackgroundResource(R.drawable.zelyanyn)
+
+        supportActionBar?.title = getString(R.string.button_text_instagram)
     }
 
 }

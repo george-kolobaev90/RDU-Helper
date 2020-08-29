@@ -3,7 +3,7 @@ package com.example.lesson
 import android.os.Bundle
 import android.widget.ArrayAdapter
 import com.example.lesson.Helper.Companion.gotoUrl
-import kotlinx.android.synthetic.main.activity_helpful_links.*
+import kotlinx.android.synthetic.main.activity_base_list_view.*
 
 abstract class BaseListViewActivity : BaseChildActivity() {
 
@@ -12,7 +12,7 @@ abstract class BaseListViewActivity : BaseChildActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_helpful_links)
+        setContentView(R.layout.activity_base_list_view)
 
         val titles = resources.getStringArray(titlesResId)
         val urls = resources.getStringArray(urlsResId)

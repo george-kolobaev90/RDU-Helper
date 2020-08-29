@@ -14,6 +14,8 @@ class Add : BaseChildActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_r_d_u)
 
+        supportActionBar?.title = getString(R.string.button_text_image_studio)
+
         chursina.setOnClickListener {
             gotoUrl(it.context, getString(R.string.button_link_chursina))
         }
