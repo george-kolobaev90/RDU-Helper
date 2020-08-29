@@ -3,14 +3,44 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@drawable/fedka"
     android:layout_height="match_parent"
+    android:background="@drawable/fedka"
+    android:orientation="vertical"
     tools:context=".HelpfulLinks">
 
-    <Button
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        style="@style/rtsButton"
-        android:text=""/>
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/rduWebsite"
+            style="@style/rtsButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_text_site_rdu" />
+
+        <Button
+            android:id="@+id/wdcWebsite"
+            style="@style/rtsButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_text_site_wdc" />
+
+        <Button
+            android:id="@+id/eadcWebsite"
+            style="@style/rtsButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_text_site_eadc" />
+
+        <Button
+            android:id="@+id/ofstWebsite"
+            style="@style/rtsButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_text_site_ofsd" />
+
+    </LinearLayout>
 
 </ScrollView>

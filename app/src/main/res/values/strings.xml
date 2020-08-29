@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
     <string name="app_name">RDU Helper</string>
@@ -11,9 +12,6 @@
     <string name="button_text_eadc">Рейтинг EADC соло девочки</string>
     <string name="button_text_class_of_dancers">Классы танцоров</string>
     <string name="button_text_raiting">Рейтинг</string>
-    <string name="button_text_ftssk">Федерация Танцевального Спорта Союз Клубов">
-    <string name="button_text_fts">Клубов">
-    <string name="button_text_в">
     <string name="button_text_main">Главная</string>
     <string name="button_text_image_studio">Имидж-Студии</string>
     <string name="button_text_instagram">Instagram</string>
@@ -32,7 +30,7 @@
     <string name="button_text_site_spts">Санкт-Петербургский Танцевальный Союз</string>
     <string name="button_text_site_ro_rts">РО РТС Санкт-Петербурга</string>
     <string name="button_text_site_fsdt">Федерация спортивного бального танца</string>
-    <string name="button_text_site_ro_"Тульская Областная Танцевальная Лига</string>
+    <string name="button_text_site_ro_">Тульская Областная Танцевальная Лига</string>
 
 
 
