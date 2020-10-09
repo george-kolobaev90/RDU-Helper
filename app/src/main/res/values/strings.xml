@@ -3,6 +3,9 @@
     <string name="app_name">RDU Helper</string>
 
     <string name="button_text_forum">Форум</string>
+    <string name="button_text_photos_videos">Фото и видео с турниров</string>
+    <string name="button_text_photos_helpful_links">Полезные ссылки</string>
+    <string name="button_text_share_title">Поделиться этим приложением</string>
     <string name="button_text_useful_links">Федерации и Организации</string>
     <string name="button_text_russian_master">russianmaster</string>
     <string name="button_text_search_partner">Поиск партнёра/парнёрши</string>
@@ -35,13 +38,24 @@
     <string name="button_text_site_mta">Moscow Dance Alliance</string>
     <string name="button_text_site_dancesport">Dancesport</string>
     <string name="button_text_youtube">Youtube каналы</string>
+    <string name="button_text_in_media">In.Media</string>
+    <string name="button_text_marius_mutin">Marius Mutin</string>
+    <string name="button_text_share">Поделиться этим приложением</string>
+    <string name="button_text_otzyv">Оставить отзыв</string>
+    <string name="button_text_">DanceFile Translation</string>
 
 
-    <string name="button_link_QuickDancePhoto">https://www.instagram.com/quickdancephoto/</string>
+    <string name="button_link_QuickDancePhoto_instagram">https://www.instagram.com/quickdancephoto/</string>
+    <string name="button_link_app">https://yadi.sk/d/1bM389OqJG88vw</string>
+    <string name="button_link_QuickDancePhoto_site">https://quickdancephoto.ru</string>
+    <string name="button_link_QuickDancePhoto_youtube">https://www.youtube.com/channel/UCp1LZPXp-k15r95cgo2UXg</string>
+    <string name="button_link_dancesport_youtube">https://www.youtube.com/user/DanceSportRu</string>
+    <string name="button_link_marius_mutin_youtube">https://www.youtube.com/user/Maistfou</string>
+    <string name="button_link_in_media_youtube">https://www.youtube.com/user/kelttm</string>
     <string name="button_link_fk_dancesport_1">https://www.instagram.com/fk_dancesport_1/</string>
     <string name="button_link_ballroomphoto">https://www.instagram.com/ballroom.photo/</string>
     <string name="button_link_dancersunderstand">https://www.instagram.com/_dancersunderstand_/</string>
-    <string name="button_link_chursina">http://old.russianmaster.ru/rkl/chursina.html?mfst=left</string>
+    <string name="button_link_chursina">http://russianmaster.ru/rkl/chursina.html?mfst=left</string>
     <string name="button_link_academy">https://academy-stylist.ru/tanci/</string>
     <string name="button_link_artfly">https://vk.com/studio_artfly</string>
     <string name="button_link_maximum">https://www.instagram.com/imagemaximum/</string>
@@ -69,31 +83,6 @@
     <string name="button_link_dancesport">https://www.instagram.com/dancesport.ru/</string>
 
 
-    <!--    <string-array name="navigation_button_titles">-->
-    <!--        <item>@string/button_text_main</item>-->
-    <!--        <item>@string/button_text_rating</item>-->
-    <!--        <item>@string/button_text_competitions</item>-->
-    <!--        <item>@string/button_text_forum</item>-->
-    <!--        <item>@string/button_text_search_partner</item>-->
-    <!--        <item>@string/button_text_class_of_dancers</item>-->
-    <!--        <item>@string/button_text_documents</item>-->
-    <!--        <item>@string/button_text_eadc</item>-->
-    <!--        <item>@string/button_text_competitions_ro</item>-->
-    <!--    </string-array>-->
-
-    <!--    <string-array name="navigation_button_urls">-->
-    <!--        <item>@string/button_link_main</item>-->
-    <!--        <item>@string/button_link_rating</item>-->
-    <!--        <item>@string/button_link_competitions</item>-->
-    <!--        <item>@string/button_link_forum</item>-->
-    <!--        <item>@string/button_link_search_partner</item>-->
-    <!--        <item>@string/button_link_documents</item>-->
-    <!--        <item>@string/button_link_class_of_dancers</item>-->
-    <!--        <item>@string/button_link_eadc</item>-->
-    <!--        <item>@string/button_link_competitions_ro</item>-->
-    <!--    </string-array>-->
-
-
     <string-array name="federations_button_titles">
         <item>@string/button_text_site_rdu</item>
         <item>@string/button_text_site_wdc</item>
@@ -119,18 +108,33 @@
     </string-array>
 
 
-    <string-array name="instagram_button_urls">
-        <item>@string/button_link_QuickDancePhoto</item>
-        <item>@string/button_link_fk_dancesport_1</item>
-        <item>@string/button_link_ballroomphoto</item>
-        <item>@string/button_link_dancersunderstand</item>
-    </string-array>
-
     <string-array name="instagram_button_titles">
         <item>@string/button_text_QuickDancePhoto</item>
         <item>@string/button_text_fk_dancesport1</item>
         <item>@string/button_text_BallroomPhoto</item>
         <item>@string/button_text_dancersunderstand</item>
+    </string-array>
+
+    <string-array name="instagram_button_urls">
+        <item>@string/button_link_QuickDancePhoto_instagram</item>
+        <item>@string/button_link_fk_dancesport_1</item>
+        <item>@string/button_link_ballroomphoto</item>
+        <item>@string/button_link_dancersunderstand</item>
+    </string-array>
+
+
+    <string-array name="youtube_button_titles">
+        <item>@string/button_text_QuickDancePhoto</item>
+        <item>@string/button_text_dancesport</item>
+        <item>@string/button_text_in_media</item>
+        <item>@string/button_text_marius_mutin</item>
+    </string-array>
+
+    <string-array name="youtube_button_urls">
+        <item>@string/button_link_QuickDancePhoto_youtube</item>
+        <item>@string/button_link_dancesport_youtube</item>
+        <item>@string/button_link_in_media_youtube</item>
+        <item>@string/button_link_marius_mutin_youtube</item>
     </string-array>
 
 

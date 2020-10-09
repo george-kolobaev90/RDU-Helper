@@ -1,8 +1,8 @@
-package com.example.rduhelper
+package com.georgekolobaev.rduhelper
 
 import android.os.Bundle
 import android.widget.ArrayAdapter
-import com.example.rduhelper.Helper.Companion.gotoUrl
+import com.georgekolobaev.rduhelper.Helper.Companion.gotoUrl
 import kotlinx.android.synthetic.main.activity_base_list_view.*
 
 abstract class BaseListViewActivity : BaseChildActivity() {

@@ -1,4 +1,4 @@
-package com.example.rduhelper
+package com.georgekolobaev.rduhelper
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

@@ -1,7 +1,7 @@
-package com.example.rduhelper
+package com.georgekolobaev.rduhelper
 
 import android.os.Bundle
-import com.example.rduhelper.Helper.Companion.gotoUrl
+import com.georgekolobaev.rduhelper.Helper.Companion.gotoUrl
 import kotlinx.android.synthetic.main.activity_r_d_u.*
 
 class Add : BaseChildActivity() {

@@ -17,9 +17,10 @@
         <item name="android:background">#A3FFFFFF</item>
     </style>
 
-    <style name="rtsButton2" parent="Widget.AppCompat.Button">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
+    <style name="rtsButtonShare" parent="Widget.AppCompat.Button">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:textSize">10sp</item>
         <item name="android:layout_marginStart">@dimen/margain_start_end_large</item>
         <item name="android:layout_marginEnd">@dimen/margain_start_end_large</item>
         <item name="android:layout_marginTop">5dp</item>

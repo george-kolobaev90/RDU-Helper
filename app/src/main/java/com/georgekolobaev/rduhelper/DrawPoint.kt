@@ -1,4 +1,4 @@
-package com.example.rduhelper
+package com.georgekolobaev.rduhelper
 
 import android.graphics.Point
 

@@ -1,4 +1,4 @@
-package com.example.rduhelper
+package com.georgekolobaev.rduhelper
 
 import android.content.Intent
 import android.os.Bundle
