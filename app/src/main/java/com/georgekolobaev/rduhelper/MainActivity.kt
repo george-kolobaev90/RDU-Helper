@@ -1,15 +1,9 @@
-package com.example.lesson
+package com.example.rduhelper
 
-import android.content.DialogInterface
 import android.content.Intent
-import android.media.MediaPlayer
 import android.os.Bundle
-import android.view.View
-import android.view.animation.*
-import androidx.appcompat.app.AlertDialog
+import android.view.animation.AnticipateOvershootInterpolator
 import androidx.appcompat.app.AppCompatActivity
-import com.example.lesson.Helper.Companion.animateAlpha
-import com.example.lesson.Helper.Companion.gotoUrl
 import kotlinx.android.synthetic.main.activity_main.*
 
 
@@ -29,6 +23,16 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        buttonShare.setOnClickListener {
+            val shareIntent = Intent().apply {
+                action = Intent.ACTION_SEND
+                type = "text/plain"
+                putExtra(Intent.EXTRA_TEXT, getString(R.string.button_link_app))
+            }
+            startActivity(Intent.createChooser(shareIntent, getString(R.string.button_text_share_title)))
+        }
+
 //
 //        buttonWords.setOnClickListener {
 //            val intent = Intent(this, Popovswords::class.java)
@@ -58,6 +62,11 @@ class MainActivity : AppCompatActivity() {
 
         buttonHelper.setOnClickListener {
             val intent = Intent(this, HelpfulLinks::class.java)
+            startActivity(intent)
+        }
+
+        buttonYoutube.setOnClickListener {
+            val intent = Intent(this, YoutubeActivity::class.java)
             startActivity(intent)
         }
 

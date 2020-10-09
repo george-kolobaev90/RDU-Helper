@@ -1,4 +1,4 @@
-package com.example.lesson
+package com.example.rduhelper
 
 import org.junit.Test
 

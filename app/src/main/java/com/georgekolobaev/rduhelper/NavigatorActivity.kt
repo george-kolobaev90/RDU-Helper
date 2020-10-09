@@ -1,4 +1,4 @@
-package com.example.lesson
+package com.example.rduhelper
 
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_base_list_view.*

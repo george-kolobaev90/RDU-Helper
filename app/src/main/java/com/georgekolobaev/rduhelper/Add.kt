@@ -1,12 +1,7 @@
-package com.example.lesson
+package com.example.rduhelper
 
-import android.content.Intent
-import android.net.Uri
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
-import com.example.lesson.Helper.Companion.gotoUrl
-import kotlinx.android.synthetic.main.activity_main.*
+import com.example.rduhelper.Helper.Companion.gotoUrl
 import kotlinx.android.synthetic.main.activity_r_d_u.*
 
 class Add : BaseChildActivity() {
