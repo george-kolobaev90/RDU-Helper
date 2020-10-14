@@ -28,7 +28,8 @@ class MainActivity : AppCompatActivity() {
             val shareIntent = Intent().apply {
                 action = Intent.ACTION_SEND
                 type = "text/plain"
-                putExtra(Intent.EXTRA_TEXT, getString(R.string.button_link_app))
+                //putExtra(Intent.EXTRA_TEXT, getString(R.string.button_link_app))
+                putExtra(Intent.EXTRA_TEXT, getString(R.string.play_store_app_link, packageName))
             }
             startActivity(Intent.createChooser(shareIntent, getString(R.string.button_text_share_title)))
         }

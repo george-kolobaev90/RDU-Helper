@@ -33,8 +33,6 @@ class Helper {
                 .setStartDelay(400)
                 .start()
         }
-
-
-
     }
+
 }

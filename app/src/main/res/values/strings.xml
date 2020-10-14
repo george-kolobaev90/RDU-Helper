@@ -2,6 +2,8 @@
 <resources>
     <string name="app_name">RDU Helper</string>
 
+    <string name="play_store_app_link" translatable="false">https://play.google.com/store/apps/details?id=%s</string>
+
     <string name="button_text_forum">Форум</string>
     <string name="button_text_photos_videos">Фото и видео с турниров</string>
     <string name="button_text_photos_helpful_links">Полезные ссылки</string>
