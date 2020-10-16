@@ -11,7 +11,7 @@ class Helper {
     companion object {
 
         fun gotoUrl(context: Context, url: String): Boolean {
-            val address = Uri.parse(url)
+            val address = Uri.parse(url.toString())
             val openLinkIntent = Intent(Intent.ACTION_VIEW, address)
 
             return if (openLinkIntent.resolveActivity(context.packageManager) != null) {

@@ -44,11 +44,15 @@
     <string name="button_text_marius_mutin">Marius Mutin</string>
     <string name="button_text_share">Поделиться этим приложением</string>
     <string name="button_text_otzyv">Оставить отзыв</string>
-    <string name="button_text_">DanceFile Translation</string>
+    <string name="button_text_dancefile_translations">DanceFile Translation</string>
+    <string name="button_text_to_random">Мини-игра</string>
+    <string name="button_text_randomiser">?</string>
+    <string name="button_text_start_randomiser">Узнать программу</string>
+    <string name="button_text_feedback">Оставить отзыв</string>
 
 
     <string name="button_link_QuickDancePhoto_instagram">https://www.instagram.com/quickdancephoto/</string>
-    <string name="button_link_app">https://yadi.sk/d/1bM389OqJG88vw</string>
+    <string name="button_link_app">https://play.google.com/store/apps/details?id=com.georgekolobaev.rduhelper&amp;hl=ru&amp;gl=US</string>
     <string name="button_link_QuickDancePhoto_site">https://quickdancephoto.ru</string>
     <string name="button_link_QuickDancePhoto_youtube">https://www.youtube.com/channel/UCp1LZPXp-k15r95cgo2UXg</string>
     <string name="button_link_dancesport_youtube">https://www.youtube.com/user/DanceSportRu</string>

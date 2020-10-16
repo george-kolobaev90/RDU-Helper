@@ -65,9 +65,9 @@
             android:text="@string/button_text_youtube" />
 
         <Button
-            android:id="@+id/buttonShare"
+            android:id="@+id/buttonToRandomiser"
             style="@style/rtsButton"
-            android:text="@string/button_text_share" />
+            android:text="@string/button_text_to_random" />
 
     </LinearLayout>
 

@@ -1,14 +1,11 @@
 package com.georgekolobaev.rduhelper
 
+import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class HelpfulLinks : BaseListViewActivity() {
-    override val titlesResId = R.array.federations_button_titles
-    override val urlsResId = R.array.federations_button_urls
-
+class HelpfulLinks : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
-        supportActionBar?.title = getString(R.string.button_text_useful_links)
+        setContentView(R.layout.activity_helpful_links1)
     }
 }
