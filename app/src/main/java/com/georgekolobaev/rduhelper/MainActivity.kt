@@ -6,6 +6,7 @@ import android.view.Menu
 import android.view.MenuItem
 import android.view.animation.AnticipateOvershootInterpolator
 import androidx.appcompat.app.AppCompatActivity
+import com.google.android.play.core.review.ReviewManagerFactory
 import kotlinx.android.synthetic.main.activity_main.*
 
 
@@ -20,7 +21,6 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, Randomiser::class.java)
             startActivity(intent)
         }
-
 
         buttonToNavigator.setOnClickListener {
             val intent = Intent(this, NavigatorActivity::class.java)
@@ -49,6 +49,16 @@ class MainActivity : AppCompatActivity() {
 
     }
 
+    override fun onStart() {
+        super.onStart()
+        rotateLogo()
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu): Boolean {
+        menuInflater.inflate(R.menu.menu_funcs, menu)
+        return super.onCreateOptionsMenu(menu)
+    }
+
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
             R.id.button_share -> {
@@ -57,6 +67,7 @@ class MainActivity : AppCompatActivity() {
             }
             R.id.button_feedback -> {
                 Helper.gotoUrl(this, getAppGooglePlayUrl())
+                //showAppFeedback()
                 return true
             }
         }
@@ -81,13 +92,7 @@ class MainActivity : AppCompatActivity() {
     private fun getAppGooglePlayUrl() =
         getString(R.string.play_store_app_link, packageName)
 
-    override fun onCreateOptionsMenu(menu: Menu): Boolean {
-        menuInflater.inflate(R.menu.menu_funcs, menu)
-        return super.onCreateOptionsMenu(menu)
-    }
-
-    override fun onStart() {
-        super.onStart()
+    private fun rotateLogo() {
         logo
             .animate()
             .setInterpolator(AnticipateOvershootInterpolator())
@@ -95,6 +100,27 @@ class MainActivity : AppCompatActivity() {
             .setDuration(2500)
             .setStartDelay(400)
             .start()
+    }
+
+    private fun showAppFeedback() {
+        val manager = ReviewManagerFactory.create(this)
+
+        val request = manager.requestReviewFlow()
+        request.addOnCompleteListener { request ->
+            if (request.isSuccessful) {
+                val reviewInfo = request.result
+
+                val flow = manager.launchReviewFlow(this, reviewInfo)
+                flow.addOnCompleteListener { _ ->
+                    // The flow has finished. The API does not indicate whether the user
+                    // reviewed or not, or even whether the review dialog was shown. Thus, no
+                    // matter the result, we continue our app flow.
+                }
+            } else {
+                // There was some problem, continue regardless of the result.
+                Helper.gotoUrl(this, getAppGooglePlayUrl())
+            }
+        }
     }
 
 }
