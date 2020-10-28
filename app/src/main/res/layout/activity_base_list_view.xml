@@ -3,7 +3,7 @@
     android:id="@+id/rootContainer"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fedka">
+    android:background="@drawable/apaev1">
 
     <ListView
         android:id="@+id/listOfFederations"

@@ -27,4 +27,5 @@
         <item name="android:textColor">@android:color/black</item>
         <item name="android:background">#A3FFFFFF</item>
     </style>
+
 </resources>

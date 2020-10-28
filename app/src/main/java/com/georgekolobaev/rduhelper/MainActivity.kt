@@ -48,11 +48,13 @@ class MainActivity : AppCompatActivity() {
         }
 
     }
+/*
 
     override fun onStart() {
         super.onStart()
         rotateLogo()
     }
+*/
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         menuInflater.inflate(R.menu.menu_funcs, menu)
@@ -67,7 +69,7 @@ class MainActivity : AppCompatActivity() {
             }
             R.id.button_feedback -> {
                 Helper.gotoUrl(this, getAppGooglePlayUrl())
-                //showAppFeedback()
+//                showAppFeedback()
                 return true
             }
         }
@@ -91,6 +93,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun getAppGooglePlayUrl() =
         getString(R.string.play_store_app_link, packageName)
+/*
 
     private fun rotateLogo() {
         logo
@@ -101,6 +104,7 @@ class MainActivity : AppCompatActivity() {
             .setStartDelay(400)
             .start()
     }
+*/
 
     private fun showAppFeedback() {
         val manager = ReviewManagerFactory.create(this)

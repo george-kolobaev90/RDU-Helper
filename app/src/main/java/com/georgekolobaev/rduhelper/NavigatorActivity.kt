@@ -9,7 +9,7 @@ class NavigatorActivity : BaseListViewActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        rootContainer.setBackgroundResource(R.drawable.brovko)
+        rootContainer.setBackgroundResource(R.drawable.me1)
 
         supportActionBar?.title = getString(R.string.button_text_russian_master)
     }

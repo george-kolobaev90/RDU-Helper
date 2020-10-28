@@ -10,7 +10,7 @@ class YoutubeActivity : BaseListViewActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        rootContainer.setBackgroundResource(R.drawable.brovko)
+        rootContainer.setBackgroundResource(R.drawable.slava1)
 
         supportActionBar?.title = getString(R.string.button_text_youtube)
     }

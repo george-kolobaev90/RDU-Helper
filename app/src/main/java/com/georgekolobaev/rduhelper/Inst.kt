@@ -9,7 +9,7 @@ class Inst : BaseListViewActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        rootContainer.setBackgroundResource(R.drawable.zelyanyn)
+        rootContainer.setBackgroundResource(R.drawable.kolebakin1)
 
         supportActionBar?.title = getString(R.string.button_text_instagram)
     }
